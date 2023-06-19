@@ -256,6 +256,11 @@ p {
   line-height: 40px;
   cursor: pointer;
 }
+.{
+    justify-content: center !important;
+    text-align: center !important;
+    margin: auto;
+}
 
 /*******Responsive media query******/
 
@@ -269,6 +274,9 @@ p {
 .text-p  {
     font-size:20px;
     font-family: NexaBook, sans-serif !important;
+}
+.portfolio-section ul{
+  margin:auto  !important;
 }
     </style>
 <body>
