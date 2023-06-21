@@ -29,9 +29,9 @@
                     <a class="nav-link" href="careers.php">CAREERS</a>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">CONTACT US</a>
+                <a class="nav-link dropdown-toggle"  href="contact.php" role="button" data-bs-toggle="" aria-expanded="false">CONTACT US</a>
                     <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item bg-dark b" href="contact.php">CONTACT</a></li>
+                        <li><a class="dropdown-item bg-dark b" href="internship.php">INTERNSHIP</a></li>
                         <li><a class="dropdown-item bg-dark b" href="payment.php">PAYMENT</a></li>
                         <li><a class="dropdown-item bg-dark b"   href="Faq.php">FAQ</a></li>
                     </ul>

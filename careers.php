@@ -41,16 +41,18 @@
 <!-------------------------------END-------------------------------------->
     
 <section>
-    <div class="careers-section-one">
-        <div class="container">
+      <div class="careers-section-one">
+          <div class="container">
             <div class="row">
-                <div class="careers-text">
-                    <h1>CAREERS</h1>
+              <div class="contact-text text-center">
+                <div class="col-12 ">
+                    <h1 class="">CAREERS</h1>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
+          </div>
+      </div>
+  </section>
 
 
         

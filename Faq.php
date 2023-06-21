@@ -15,30 +15,7 @@
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    
-</head>
-<body>
-
-<!---------------------------- NAVBAR section------------------------- -->
-<?php include 'navbar.php';?>
-<!-------------------------------END-------------------------------------->
-
-  <section>
-      <div class="contact-section-one">
-          <div class="container">
-            <div class="row">
-              <div class="contact-text text-center">
-                <div class="col-12 ">
-                    <h1 class="">FAQ</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-  </section>
-
-
-<style>
+    <style>
     body{
     font-family: Verdana, 'Roboto', sans-serif, Monospace;
     background:white;
@@ -135,6 +112,29 @@ p {
 }
 
 </style>
+</head>
+<body>
+
+<!---------------------------- NAVBAR section------------------------- -->
+<?php include 'navbar.php';?>
+<!-------------------------------END-------------------------------------->
+
+  <section>
+      <div class="faq-section-one">
+          <div class="container">
+            <div class="row">
+              <div class="contact-text text-center">
+                <div class="col-12 ">
+                    <h1 class="">FAQ</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+
+
  
 <div id="Category1" class="w3-container category w3-animate-opacity">
     <main class="mt-5 mb-5">
@@ -153,9 +153,9 @@ p {
                         In short, the industry as a whole is broken. You may get an opportunity to work at a studio that treats their employees great. Don’t let this experience fool you; they are the exception, not the rule. I personally expect the industry to implode on itself in the next decade and I hope it will then rebuild itself as something more sustainable. Only time will tell.
                         On a positive note, there are a lot of great people you can work with. It is one of the only reasons I have stuck around as long as I have. Also, the work itself is usually very interesting and fun. But, as an employee you will be treated pretty poorly, sometimes because your boss or manager is a jerk, but most often because they are just trying to stay in the black.
                         My advice? Look to animation or video games. Many aspects of the work are similar, but you get treated far better because the studios are usually creating their own content, and so benefit financially from the product’s success. This, in turn, trickles down to the employees who are seen as essential assets and are treated well compared to VFX artists.</p>
-                        <p> Sign up now for exclusive giveaways, screenings, sneak-peeks, and much more</p>
+                        <!-- <p> Sign up now for exclusive giveaways, screenings, sneak-peeks, and much more</p> -->
 
-                        <input type="email" placeholder="Your Email" class="form-control col-4 rounded-0 p-4 " >
+                        <!-- <input type="email" placeholder="Your Email" class="form-control col-4 rounded-0 p-4 " > -->
                         <br>
                         <br>
                     </div>

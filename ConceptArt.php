@@ -147,9 +147,9 @@
                         
                     </div>  
                     <div class="columnn">
-                        <img src="images/art/art-2.jpg" style="width:100%">
-                        <img src="images/art/art-4.jpg" style="width:100%">
-                        <img src="images/art/art-3.jpg" style="width:100%">  
+                        <img src="images/art/art-13.jpg" style="width:100%">
+                        <img src="images/art/art-11.jpg" style="width:100%">
+                        <img src="images/art/art-12.jpg" style="width:100%">  
                     </div>
                 </div>
             </div>

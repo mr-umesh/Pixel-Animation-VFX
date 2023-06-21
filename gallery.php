@@ -284,8 +284,8 @@ p {
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h1 class="text-h1">Work.</h1>
-          <p class="text-p">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore corporis voluptate sunt,</p>
+          <h1 class="text-h1">Gallery</h1>
+          <!-- <p class="text-p">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore corporis voluptate sunt,</p> -->
       </div>
       <div class="portfolio-menu mt-2 mb-4">
         <nav class="controls">

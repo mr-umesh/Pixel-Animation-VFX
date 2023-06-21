@@ -23,9 +23,7 @@
 <!-------------------------------END-------------------------------------->
 
 <section>
-    <div class="about-page-one">
-
-    </div>
+    <div class="about-page-one"></div>
 </section>
 
 
@@ -79,8 +77,7 @@
                     <div style="width:70%; text-align:center; margin-left:80px; border:2px solid white;" class="line-vertical"> </div>
                     
                     <h2 clas="mt-5">PIXLVFX PRODUCTION</h2>
-                    <p class="text-start">The Limit of what is technically and creative
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate ipsum iure aspernatur expedita nulla sit eveniet est alias deserunt totam qui doloremque voluptates obcaecati doloribus pariatur quisquam, ducimus odit.
+                    <p class="text-start">VFX producers manage the whole process of creating the VFX for&nbsp;<b>film</b>&nbsp;or TV. … VFX producers put together the team of VFX artists and other technical staff. They set the schedules for the work and they manage the budget. While filming is happening, VFX producers work closely with the live-action production crew.
                             </p>
                     <div style="width:70%; text-align:center; margin-left:80px; border:2px solid white;" class="line-vertical"> </div>
                 </div>
