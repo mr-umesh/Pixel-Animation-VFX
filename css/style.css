@@ -355,10 +355,13 @@ p {
 }
 
 .card-section .card .content .back .des{
-  font-size: 19px;
-    padding: 100px 0px;
-  /* padding:20px 0px; */
+  
+  padding: 100px 0px;
+  font-family: Oswald-ExtraLight !important;
+  font-size: 20px !important;
+  font-weight: 300;
 }
+
 
 .card-section .card .content .back .social-icon li a{
   display:block;
@@ -410,9 +413,9 @@ p {
   font-family: NexaBook, sans-serif !important;
   font-size: 20px !important;
 }
-.page-four p{
+.page-four p {
   font-family: Oswald-ExtraLight !important;
-  font-size: 20px !important;
+  font-size: 14px !important;
   font-weight: 300;
 }
 .page-four h1{
@@ -2094,9 +2097,21 @@ p.p-5.text-white {
     top:-300px;
   
 }
+.back-text-edit p{
+  position: relative;
+  top: 50px;
+  font-size: 30px !important;
+  font-family: Oswald-ExtraLight !important;
+}
 
-
-
+i.fa.fa-bars {
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
  @media screen and (max-width: 991px) {
   .button-section {
     position: relative;

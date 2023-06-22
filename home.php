@@ -94,6 +94,12 @@ video {
 .fa:hover {
   color: darkblue;
 } 
+.wbb{
+    font-weight: 600 !important;
+    font-size: 50px;
+    font-family: Oswald-Bold !important;
+}
+
 
 </style>
 <body>
@@ -142,27 +148,6 @@ video {
         // $(this).removeClass('fa-thumbs-down')
         // });
         </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script>
     
                 function toggleMute() {
@@ -190,20 +175,23 @@ video {
 <!--------------------------------END------------------------------------->
 
 <!--------------------------------CARD------------------------------------->
-    <div class="card-section mt-3 mb-3">
+    <div class="card-section  mb-3">
         <div class="container">
             <div class="row">
+            <h1 class="text-center py-5 wbb">OUR PRODUCTION</h1> 
                 <div class="column">
                     <div class="card">
                         <div class="content">
                             <div class="front">
                                 <img class="profile" width="100%" src="images/card-1.jpg" alt="Neymar"> 
-                                <h2 class="mt-2">PIXL EFFECT</h2>      
+                                <h2 class="mt-2">VFX</h2>      
                             </div>
                             <div class="back from-left"> 
                                 <div >
-                                  <p class="des">  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem, accusamus tempora?
-                                    </p>
+                                <div class="back-text-edit">
+                                    <p>PROJECTS</p>
+                                </div>
+                                 <p class="des">Visual effects (sometimes abbreviated VFX) is the process by which imagery is created or manipulated outside the context of a live action shot in filmmaking and video production.</p>
                                 </div>
                             </div>
                         </div>
@@ -214,12 +202,13 @@ video {
                         <div class="content">
                             <div class="front">
                                 <img class="profile" width="100%" src="images/card-2.jpg" alt="Ronaldo">
-                                <h2 class="mt-2">PIXL EFFECT</h2>
+                                <h2 class="mt-2">CONCEPT</h2>
                             </div>
                             <div class="back from-bottom"> 
-                                <p class="des">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem, accusamus tempora?
-                                </p>  
+                                <div class="back-text-edit">
+                                    <p>PROJECTS</p>
+                                </div>
+                                    <p class="des">Concept artists create artwork to inspire the look of the visual effects (VFX) in a film or TV production. They draw the characters or creatures and environments as well as vehicles, props and buildings. </p>  
                             </div>
                         </div>
                     </div>
@@ -229,12 +218,13 @@ video {
                         <div class="content">
                             <div class="front">
                                     <img class="profile" width="100%" src="images/card-3.jpg" alt="Messi">
-                                    <h2 class="mt-2">PIXL EFFECT</h2>
+                                    <h2 class="mt-2">CROWD SIMULATION</h2>
                                 </div>
-                                <div class="back from-right">                                                                
-                                    <p class="des">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem, accusamus tempora?
-                                </p>                           
+                                <div class="back from-right">   
+                                    <div class="back-text-edit">
+                                    <p>PROJECTS</p>
+                                </div>                                                            
+                                    <p class="des">Crowd simulation is the process of simulating the movement (or dynamics) of a large number of entities or characters. It is commonly used to create virtual scenes for visual media like films and video games. </p>                           
                             </div>
                         </div>
                     </div>
@@ -269,9 +259,7 @@ video {
                     <div class="col-8 page-four-text text-left text-white">
                        <h6>SOUTH INDIA</h6>
                        <h1>THE PIXLVFX</h1>
-                       <P>This incredible studio, conveniently located in White Town – Puducherry, bear a strong resemblance to the colonial French rule of the ancient times. Also PIXL is one of the best and promising visual-effects studio in down-south. The co-founders holding the strength & quality of producing visual-effects imagery under budget.
-
-</P>
+                       <P>This incredible studio, conveniently located in White Town – Puducherry, bear a strong resemblance to the colonial French rule of the ancient times. Also PIXL is one of the best and promising visual-effects studio in down-south. The co-founders holding the strength & quality of producing visual-effects imagery under budget.</P>
                     </div>
                 </div>
             </div>

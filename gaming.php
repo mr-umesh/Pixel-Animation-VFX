@@ -110,17 +110,17 @@
             <!-- Photo Grid -->
             <div class="row"> 
                 <div class="column col-12">
-                    <img src="images/gaming/wedding.jpg" style="width:100%">
-                    <img src="images/gaming/rocks.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-3.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-2.jpg" style="width:100%">
                 </div>
                 <div class="column col-12">
-                    <img src="images/gaming/underwater.jpg" style="width:100%">
-                    <img src="images/gaming/ocean.jpg" style="width:100%">
-                    <img src="images/gaming/wedding.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-4.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-5.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-3.jpg" style="width:100%">
                 </div>  
                 <div class="column col-12">
-                    <img src="images/gaming/wedding.jpg" style="width:100%">
-                    <img src="images/gaming/rocks.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-3.jpg" style="width:100%">
+                    <img src="images/gaming/gaming-slider-1.jpg" style="width:100%">
                 </div>
             </div>
         </div>
@@ -149,22 +149,22 @@
                             <div class="row">
                                 <div class="col-sm-3 col-lg-3 col-md-3">
                                     <div class="gaming-section-three-img">
-                                        <img src="images/gaming/gaming-three-1.jpg" class="img-fluid"  alt="">
+                                        <img src="images/art/art-5.jpg" class="img-fluid"  alt="">
                                     </div>                                   
                                 </div>
                                 <div class="col-sm-3 col-lg-3 col-md-3">
                                     <div class="gaming-section-three-img">
-                                        <img src="images/gaming/gaming-three-4.jpg" class="img-fluid" alt="">
+                                        <img src="images/art/art-6.jpg" class="img-fluid" alt="">
                                     </div>    
                                 </div>
                                 <div class="col-sm-3 col-lg-3 col-md-3">
                                     <div class="gaming-section-three-img">
-                                        <img src="images/gaming/gaming-three-3.jpg" class="img-fluid" alt="">
+                                        <img src="images/art/art-7.jpg" class="img-fluid" alt="">
                                     </div>    
                                 </div>
                                 <div class="col-sm-3 col-lg-3 col-md-3">
                                     <div class="gaming-section-three-img">
-                                        <img src="images/gaming/gaming-three-5.jpg" class="img-fluid" alt="">
+                                        <img src="images/art/art-8.jpg" class="img-fluid" alt="">
                                     </div>    
                                 </div>
                             </div>
@@ -220,11 +220,11 @@
                     <div class="container p-5">
                         <div class="row ">
                             <div class="col-md-4 text-center text-white">
-                                <h5><b style="color:blue;">O</b>ure articals</h5>
+                                <h5><b style="color:blue;">O</b>ure arts</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla blanditiis deleniti illo,</p>
                                 <img src="images/gaming/blog-img-6.jpg" alt="" class="img-fluid h-75 w-100">
                                 <div class="d-flex justify-content-end">
-                                    <a  class="backk mt-4">‹</a>
+                                    <!-- <a  class="backk mt-4">‹</a> -->
                                 </div>
                                
                             </div>
@@ -233,10 +233,10 @@
                                 <img src="images/gaming/blog-img-5.jpg" alt="" class="img-fluid mt-3">
                             </div>
                             <div class="col-12 col-md-4">
-                                <img src="images/gaming/blog-img-1.jpg" alt="" class="img-fluid ">
+                                <img src="images/gaming/blog-img-1.jpg" alt="" class="img-fluid w-100">
                                 <img src="images/gaming/blog-img-4.jpg" alt="" class="img-fluid w-100 mt-3" style="height:60%;">
                                 <div class="d-flex justify-content-start">
-                                    <a  class="nextt mt-4">›</a> 
+                                    <!-- <a  class="nextt mt-4">›</a>  -->
                                 </div>                                
                             </div>  
                         </div>   

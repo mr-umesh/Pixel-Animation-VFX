@@ -333,7 +333,7 @@ p {
           </div>
         </li>
         <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="images/gallery/gall-3.png" itemprop="thumbnail" alt="Image description" />
+          <img src="images/gallery/gal/gall-art-1.png" itemprop="thumbnail" alt="Image description" />
           <div class="portfolio-overlay">
             <div class="overlay-content">
               <!-- <p class="category">Project Name</p> -->
@@ -342,7 +342,7 @@ p {
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
               </a> -->
-              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gall-3.jpg" data-size="1200x600">
+              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gal/gall-art-1.jpg" data-size="1200x600">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
@@ -350,6 +350,7 @@ p {
             </div>
           </div>
         </li>
+        
         <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd ">
           <img src="images/gallery/gall-4.png" itemprop="thumbnail" alt="Image description" />
           <div class="portfolio-overlay">
@@ -387,7 +388,7 @@ p {
           </div>
         </li>
         <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd ">
-          <img src="images/gallery/gall-6.png" itemprop="thumbnail" alt="Image description" />
+          <img src="images/gallery/gal/gall-art-2.png" itemprop="thumbnail" alt="Image description" />
           <div class="portfolio-overlay">
             <div class="overlay-content">
               <!-- <p class="category">Project Name</p> -->
@@ -396,7 +397,7 @@ p {
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
               </a> -->
-              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gall-6.jpg" data-size="1200x600">
+              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gal/gall-art-2.jpg" data-size="1200x600">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
@@ -441,7 +442,7 @@ p {
           </div>
         </li>
         <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="images/gallery/gall-9.png" emprop="thumbnail" alt="Image description" />
+          <img src="images/gallery/gal/gall-art-3.png" emprop="thumbnail" alt="Image description" />
           <div class="portfolio-overlay">
             <div class="overlay-content">
               <!-- <p class="category">Project Name</p> -->
@@ -450,7 +451,7 @@ p {
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
               </a> -->
-              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gall-9.jpg" ta-size="1200x600">
+              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gal/gall-art-3.jpg" ta-size="1200x600">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
@@ -495,7 +496,7 @@ p {
           </div>
         </li>
         <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="images/gallery/gall-12.png" itemprop="thumbnail" alt="Image description" />
+          <img src="images/gallery/gal/gall-art-5.png" itemprop="thumbnail" alt="Image description" />
           <div class="portfolio-overlay">
             <div class="overlay-content">
               <!-- <p class="category">Project Name</p> -->
@@ -504,7 +505,7 @@ p {
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
               </a> -->
-              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gall-12.jpg" data-size="1200x600">
+              <a data-fancybox="item" title="click to zoom-in" href="images/gallery/gal/gall-art-5.jpg" data-size="1200x600">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
