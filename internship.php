@@ -23,7 +23,7 @@
             font-weight: 600;
         }
         p{
-            font-family: Oswald-Light, sans-serif !important;
+            font-family: Jost, sans-serif !important;
             font-size: 20px;
             font-weight: 300;
         

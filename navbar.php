@@ -1,14 +1,14 @@
 <!--------------------------------NAVBAR------------------------------------->
 <nav class="navbar navbar-expand-lg navbar-fixed-top fixed-top py-3">
     <div class="container">
-        <a class="navbar-brand" href="home.php"><img src="images/logo-white.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.php"><img src="images/logo-white.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="home.php">HOME</a>
+                    <a class="nav-link" href="index.php">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">ABOUT US</a>

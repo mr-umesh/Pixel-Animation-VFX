@@ -144,12 +144,13 @@ ul {
 }
 .copyright-text p {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   color: #878787;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #878787;
 }
+.copyright-text p a:hover {text-decoration: none; color: #878787;}
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
@@ -165,13 +166,13 @@ ul {
 .footer-non ul li {
     list-style:none;
     display:inline;
-    margin-right:30px;
+    margin-right:20px;
     color:white;
     text-decoration:none;
 }
 .footer-non ul li a{
     color:white;
-    font-family: 'NexaBook' !important;
+    font-family: 'Jost', sans-serif !important;
     font-size: 18px;
 }
 .hrrr {
@@ -188,57 +189,57 @@ ul {
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
-                    <div class="col-xl-3 col-md-3 mb-30">
+                    <div class="col-6 col-xl-3 col-md-3 col-sm-6 mb-30">
                         <div class="single-cta">
                           
                             <div class="cta-text">
-                                <img src="images/logo-11.png" width="250px" height="100px" alt="">
+                                <img src="images/logo-11.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-3 mb-30">
+                    <div class="col-6 col-xl-3 col-md-3 col-sm-6 mb-30">
                         <div class="single-cta">
                            
                             <div class="cta-text">
-                            <img src="images/logo-12.png" width="250px" height="100px" alt="">
+                            <img src="images/logo-12.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-3 mb-30">
+                    <div class="col-6 col-xl-3 col-md-3 col-sm-6 mb-30">
                         <div class="single-cta">
                            
                             <div class="cta-text">
-                            <img src="images/logo-13.png" width="250px" height="100px" alt="">
+                            <img src="images/logo-13.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-3 mb-30">
+                    <div class="col-6 col-xl-3 col-md-3 col-sm-6 mb-30">
                         <div class="single-cta">
                           
                             <div class="cta-text">
-                            <img src="images/logo-14.png" width="250px" height="100px" alt="">
+                            <img src="images/logo-14.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-content ">
+            <div class="footer-content">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 ">
+                    <div class="col-sm-12 col-xl-3 col-lg-3 col-md-3 text-center text-sm-left">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="images/logo-white.png" class="img-fluid" alt="logo"></a>
+                                <a href="index.php"><img src="images/logo-white.png" class="img-fluid" alt="logo"></a>
                             </div> 
                         </div>
                     </div>
-                    <div class="col-xl-9 col-lg-9 col-md-9 ">
+                    <div class="col-sm-12 col-xl-9 col-lg-9 col-md-9 text-center text-md-right">
                         <div class="footer-non d-flex justify-content-end">  
                             <ul >   
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Works</a></li>
-                                <li><a href="#">Intership</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="our-work.php">Our Works</a></li>
+                                <li><a href="internship.php">Intership</a></li>
+                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a href="Faq.php">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -249,17 +250,16 @@ ul {
         </div>
         <div class="copyright-area">
             <div class="container">
-                <div class="  pt-4">
+                <div class="pt-3 pb-3">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                            <div class="copyright-text">
-                                <p>Copyright &copy; 2023, All Right Reserved <a href="#">Speed Teach</a></p>
+                        <div class="col-xl-9 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text mt-2 mb-3 mb-lg-0">
+                                <p>Copyright &copy; 2023 PIXL Visual Effects, All Right Reserved | Designed by <a href="https://speedtech.ai/" target="_blank">Speed Teach</a></p>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                            <div class="footer-menu">
-                            <div class="footer-social-icon">
-                                
+                        <div class="col-xl-3 col-lg-6 text-center text-lg-right">
+                            <div class="footer-menu mb-3 mb-lg-0">
+                              <div class="footer-social-icon">
                                     <a href="#"><i class="fab fa-facebook-f "></i></a>
                                     <a href="#"><i class="fab fa-twitter "></i></a>
                                     <a href="#"><i class="fab fa-google-plus-g "></i></a>

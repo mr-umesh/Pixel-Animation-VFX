@@ -16,11 +16,11 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <style>
-    body{
+body{
     font-family: Verdana, 'Roboto', sans-serif, Monospace;
     background:white;
     line-height: 1.5;
-   }
+}
    main{
    max-width: 80%;
    margin:10px auto;
@@ -81,7 +81,7 @@
     display:none;
 }
 p {
-    font-family: Oswald-Light !important;
+    font-family: Jost, sans-serif !important;
     padding: 10px;
     font-size: 20px;
 }
