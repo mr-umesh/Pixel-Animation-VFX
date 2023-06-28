@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css"> 
      <!-- Icon Font Stylesheet -->
      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     
@@ -28,7 +29,7 @@
 <div class="overlay-two"></div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-6 col-lg-6 col-md-6 ">
+            <div class="col-12 col-sm-6 col-lg-6 col-md-6 wow zoomIn" data-wow-duration="0.4s" data-wow-delay="1s">
                 <div class="gaming-text-one">
                         <h6>Discover Games You Will Love</h6>
                         <h1>Read About Games <br>That You Enjoy</h1>
@@ -37,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-6 col-md-6">
+            <div class="col-12 col-sm-6 col-lg-6 col-md-6 wow zoomIn" data-wow-duration="0.4s" data-wow-delay="1s">
                 <div class="gaming-img-one">
                     <img src="images/gaming/gaming.png" class="img-fluid" alt="">
                 </div>
@@ -45,48 +46,48 @@
         </div>
         <div class="row">
             <div class="col-12 gaming-text-two" >
-                <h1 class="text-white mt-5">Currently Trending Games</h1>
-                <div class="res-btn">
+                <h1 class="text-white mt-5 wow zoomIn" data-wow-duration="0.4s" data-wow-delay="1s">Currently Trending Games</h1>
+                <div class="res-btn wow fadeInRight" data-wow-delay="0.5s">
                     <button type="button" class="btn btn-dark rounded-pill mt-5 mb-2" style="float:right;position:relative; z-index:2;     margin-top: 62px !important;margin-right: 38px !important; ">See All</button>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3  wow fadeInLeft" data-wow-delay="0.5s">
                     <img src="images/gaming/gaming-2.png" class="w-100 img-img">
                 </div>
                 <div class="col-sm-9 col-lg-9 col-md-9">
                     <div class="row">
-                        <div class="col-2 col-sm-2 col-lg-2 col-md-2">
+                        <div class="col-2 col-sm-2 col-lg-2 col-md-2 wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                             <div class="gaming-img-two">
                                 <img src="images/gaming/gaming-7.jpg" class="img-fluid rounded" alt="">
                                 <span class="text-white"><i class="fas fa-fire"></i> 50 Followers</span>
                             </div>
                         </div>
-                        <div class="col-2 col-sm-2 col-lg-2 col-md-2">
+                        <div class="col-2 col-sm-2 col-lg-2 col-md-2 wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                             <div class="gaming-img-two">
                                 <img src="images/gaming/gaming-5.jpg" class="img-fluid rounded" alt="">
                                 <span class="text-white"><i class="fas fa-fire"></i> 44 Followers</span>
                             </div>
                         </div>
-                        <div class="col-2 col-sm-2 col-lg-2 col-md-2">
+                        <div class="col-2 col-sm-2 col-lg-2 col-md-2 wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                             <div class="gaming-img-two">
                                     <img src="images/gaming/gaming-6.jpg" class="img-fluid rounded" alt="">
                                     <span class="text-white"><i class="fas fa-fire"></i> 37 Followers</span>
                             </div>
                         </div>
-                        <div class="col-2 col-sm-2 col-lg-2 col-md-2">
+                        <div class="col-2 col-sm-2 col-lg-2 col-md-2 wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                             <div class="gaming-img-two">
                                 <img src="images/gaming/gaming-4.png" class="img-fluid rounded" alt="">
                                 <span class="text-white"><i class="fas fa-fire"></i> 31 Followers</span>
                             </div>
                         </div>
-                        <div class="col-2 col-sm-2 col-lg-2 col-md-2">
+                        <div class="col-2 col-sm-2 col-lg-2 col-md-2 wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                             <div class="gaming-img-two">
                                 <img src="images/gaming/gaming-3.jpg" class="img-fluid rounded " alt="">
                                 <span class="text-white"><i class="fas fa-fire"></i> 17 Followers</span>
                             </div>
                         </div>
-                        <div class="col-2 col-sm-2 col-lg-2 col-md-2">
+                        <div class="col-2 col-sm-2 col-lg-2 col-md-2 wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                             <div class="gaming-img-two">
                                 <img src="images/gaming/gaming-9.jpg" class="img-fluid rounded" alt="">
                                 <span class="text-white d-block"><i class="fas fa-fire"></i> 8 Followers</span>
@@ -104,12 +105,12 @@
         <div class="overlay-three"></div>
         <div class="container">
             <!-- Header -->
-            <div class="header">
+            <div class="header  wow fadeInLeft" data-wow-delay="0.5s">
                 <h1>THIS IS A SLIDER!</h1>
                 <p>Resize the browser window to see the responsive effect.</p>
             </div>
             <!-- Photo Grid -->
-            <div class="row"> 
+            <div class="row wow fadeInRight" data-wow-delay="0.5s"> 
                 <div class="column col-12">
                     <img src="images/gaming/gaming-slider-3.jpg" style="width:100%">
                     <img src="images/gaming/gaming-slider-2.jpg" style="width:100%">
@@ -148,22 +149,22 @@
                     <div class="tab-pane fade show active " id="nav-all" >
                         <div class="container ">  
                             <div class="row">
-                                <div class="col-sm-3 col-lg-3 col-md-3">
+                                <div class="col-sm-3 col-lg-3 col-md-3  wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="gaming-section-three-img">
                                         <img src="images/art/art-5.jpg" class="img-fluid"  alt="">
                                     </div>                                   
                                 </div>
-                                <div class="col-sm-3 col-lg-3 col-md-3">
+                                <div class="col-sm-3 col-lg-3 col-md-3 wow zoomIn" data-wow-duration="0.4s" data-wow-delay="1s">
                                     <div class="gaming-section-three-img">
                                         <img src="images/art/art-6.jpg" class="img-fluid" alt="">
                                     </div>    
                                 </div>
-                                <div class="col-sm-3 col-lg-3 col-md-3">
+                                <div class="col-sm-3 col-lg-3 col-md-3 wow zoomIn" data-wow-duration="0.4s" data-wow-delay="1s">
                                     <div class="gaming-section-three-img">
                                         <img src="images/art/art-7.jpg" class="img-fluid" alt="">
                                     </div>    
                                 </div>
-                                <div class="col-sm-3 col-lg-3 col-md-3">
+                                <div class="col-sm-3 col-lg-3 col-md-3  wow fadeInRight" data-wow-delay="0.5s">
                                     <div class="gaming-section-three-img">
                                         <img src="images/art/art-8.jpg" class="img-fluid" alt="">
                                     </div>    
@@ -187,7 +188,7 @@
                 <div class="gaming-rext-three text-center py-4 text-white">
                     <h1><b style="color:blue;">V</b>IDEO GAMES</h1>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 mb-5">
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-5 wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                     <video playsinline autoplay muted loop>
                         <source src="video/gaming-video.mp4" type="video/mp4">  
                     </video>
@@ -195,8 +196,8 @@
                         <h3><b style="color:blue;">W</b>ATCH THE <br>VIDEO</h3>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <div class="gaming-rext-three-text text-white p-5">
+                <div class="col-lg-6 col-md-6 col-sm-6  wow rotateInUpRight" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                    <div class="gaming-rext-three-text text-white p-5 ">
                         <h2><b style="color:blue;">S</b>TARCRAFT 3</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quis, id harum cupiditate eius suscipit ducimus atque dolorem, officiis tempore laborum exercitationem repellendus.</p>
                         <button type="button" class=" btn-tbn btn btn-dark text-white rounded-pill ps-4 pe-4 m-1"  >ALL</button>
@@ -217,7 +218,7 @@
                 <div class="gaming-rext-three text-center text-white mt-3">
                     <h1><b style="color:blue;">B</b>LOG</h1>
                 </div>
-                <div class="blog-box">
+                <div class="blog-box wow rotateInUpLeft" data-wow-duration="0.5s" data-wow-delay="0.7s"">
                     <div class="container p-5">
                         <div class="row ">
                             <div class="col-md-4 text-center text-white">

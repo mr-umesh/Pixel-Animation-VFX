@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animated.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
@@ -79,11 +79,10 @@ video {
     background: rgba(0,0,0,0.2);
     height: 50px !important;
     width: 50px !important;
-    /* display: block; */
     font-size: 11px;
 }
 .hero-section{
-    margin-top: -150px;
+    margin-top: -152px;
 }
 
 h1.text-center.py-5.wbb {
@@ -99,27 +98,49 @@ h1.text-center.py-5.wbb {
  }
  i.fa {
     font-size: 50px;
-  cursor: pointer;
-  user-select: none;
+    cursor: pointer;
+    user-select: none;
 }
 
-.fa:hover {
-  color: darkblue;
-} 
+
 .wbb{
     font-weight: 600 !important;
     font-size: 50px;
     font-family: Oswald-Bold !important;
+    margin-top:80px;
 }
+/* .wbb {
+  
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+} */
 h1.text-center.py-5.wbb {
     position: relative;
     top: 3px;
 }
 .card-section {
     position: relative;
-    /* margin-top: -132px; */
     top: -58px;
 }
+
+
+/* .column{
+  position: relative;
+  animation: umesh 1s infinite;
+  animation-delay: 0s;
+}
+
+
+@keyframes umesh {
+  from {top: 500px;}
+  to {top: 0px;}
+} */
 </style>
 <body>
   <!---------------------------- NAVBAR section------------------------- -->
@@ -135,7 +156,7 @@ h1.text-center.py-5.wbb {
                     <video id="video" autoplay muted width="100%" height="633">
                         <source src="video/pixel.mp4" type="video/mp4">
                     </video>
-                    <button class="btn-sound" type="button" onclick="showVideo()" id="button"><i class='fas fa-volume-up accordion__item__header'></i></button>
+                    <!-- <button class="btn-sound" type="button" onclick="showVideo()" id="button"><i class='fas fa-volume-up accordion__item__header'></i></button> -->
                   
                     <!-- <div class="hero-content mb-5 text-center">
                         <p class="text-white ">An Award Winning VFX Studio</p>
@@ -150,7 +171,7 @@ h1.text-center.py-5.wbb {
         <div>    
     </section>
 
-    <script>
+    <!-- <script>
                 function toggleMute() {
                 var video = document.getElementById('video');
                 if (video.muted) {
@@ -159,11 +180,11 @@ h1.text-center.py-5.wbb {
                     video.muted = true;
                 }
             }
-            /* Delay Function to Add SetTimeOut After Defined Interval */
+          
                 function delay(time) {
                 return new Promise((resolve) => setTimeout(resolve, time));
             }
-            /* Show Video Function to Add Display Property to Show the Video on Click of Button which will fulfilled User Interaction Needs to Browser to Run the Video with Unmute State */
+          
                 function showVideo() {
                 var element = document.getElementById('video');
                 var button = document.getElementById('button');
@@ -172,15 +193,15 @@ h1.text-center.py-5.wbb {
                 delay(100).then(() => toggleMute());
                 
             }
-    </script>
+    </script> -->
 <!--------------------------------END------------------------------------->
 
 <!--------------------------------CARD------------------------------------->
     <div class="card-section cardddd">
         <div class="container">
             <div class="row">
-            <h1 class="text-center py-5 wbb">OUR PRODUCTION</h1> 
-                <div class="column">
+            <h1 class="text-center wbb wow fadeInUp" data-wow-delay="0.3s">OUR PRODUCTION</h1> 
+                <div class="column wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                     <div class="card">
                         <div class="content">
                             <div class="front">
@@ -198,7 +219,7 @@ h1.text-center.py-5.wbb {
                         </div>
                     </div>
                 </div>
-                <div class="column">
+                <div class="column wow rollIn" data-wow-duration="0.5s" data-wow-delay="1s">
                     <div class="card">
                         <div class="content">
                             <div class="front">
@@ -214,7 +235,7 @@ h1.text-center.py-5.wbb {
                         </div>
                     </div>
                 </div>
-                <div class="column">
+                <div class="column wow rollIn" data-wow-duration="0.7s" data-wow-delay="1s">
                     <div class="card">
                         <div class="content">
                             <div class="front">
@@ -240,7 +261,7 @@ h1.text-center.py-5.wbb {
     <div class="page-three">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-12">   
+                <div class="col-12 col-lg-12 wow fadeInUp" data-wow-delay="0.9s">   
                     <div class="page-three-text text-center text-white">
                        <p>OUR PURPOSE</p>
                        <h1>TO ENTERTAIN,INSPIRE AND IMPRESS</h1>
@@ -256,11 +277,11 @@ h1.text-center.py-5.wbb {
     <div class="page-four">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow fadeInLeft" data-wow-delay="0.1s">
                     <div class="col-8 page-four-text text-left text-white">
                        <h6>SOUTH INDIA</h6>
                        <h1>THE PIXLVFX</h1>
-                       <P>This incredible studio, conveniently located in White Town – Puducherry, bear a strong resemblance to the colonial French rule of the ancient times. Also PIXL is one of the best and promising visual-effects studio in down-south. The co-founders holding the strength & quality of producing visual-effects imagery under budget.</P>
+                       <P class="wow fadeInUp" data-wow-delay="0.5s">This incredible studio, conveniently located in White Town – Puducherry, bear a strong resemblance to the colonial French rule of the ancient times. Also PIXL is one of the best and promising visual-effects studio in down-south. The co-founders holding the strength & quality of producing visual-effects imagery under budget.</P>
                     </div>
                 </div>
             </div>
@@ -273,7 +294,7 @@ h1.text-center.py-5.wbb {
     
     <div class="owl-carousel-section-qq" style="background:black;">
         <div id="carouselExampleControlsNoTouching" class="carousel slide " data-bs-touch="false" data-bs-interval="false">
-            <div class="carousel-inner">
+            <div class="carousel-inner wow fadeInUp" data-wow-delay="0.5s">
                 <div class="carousel-item active">
                     <img src="images/slider-5.jpg"  class="img-fluid" style="width:100%; height:500px;">
                     <div class="text">
@@ -304,14 +325,14 @@ h1.text-center.py-5.wbb {
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                 <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-                <div class="prve-t ">
-                    <span class="prve-prve">PRVE</span>
+                <div class="prve-t wow fadeInRight" data-wow-delay="0.1s">
+                    <span class="prve-prve ">PRVE</span>
                 </div>
                
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
                 
-                <div class="next-t">
+                <div class="next-t wow fadeInUp" data-wow-delay="0.3s">
                     <span class="next-next">NEXT</span>
                 </div>
                 <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>  -->
@@ -324,16 +345,16 @@ h1.text-center.py-5.wbb {
     <div class="page-six py-3">
         <div class="container-fluid p-0">
             <div class="row">
-                <div class=" col-sm-6 col-sm-6 col-md-6">
+                <div class=" col-sm-6 col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="0.1s">
                     <img src="images/page-six.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-12 col-sm-4 col-sm-4 col-md-4">
+                <div class="col-12 col-sm-4 col-sm-4 col-md-4 wow fadeInRight" data-wow-delay="0.3s">
                     <div class="page-six-text text-white mt-3">
                         <h1>The value of Digital Twins</h1>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus laboriosam voluptates delectus ullam debitis ipsam eius repudiandae fuga suscipit illo at voluptatibus commodi aliquid quae dolorem minima nemo, architecto explicabo. </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda perspiciatis, praesentium amet adipisci magnam maxime facilis quos? Incidunt officiis accusamus labore sapiente magni quod eligendi quis vero vitae modi. </p>
                     </div>
-                    <div class="btn-btn mb-3">
+                    <div class="btn-btn mb-3 wow fadeInUp" data-wow-delay="0.7s">
                         <a href="#" class="btn btn-success   btn-lg active mt-3 rounded-pill" role="button" aria-pressed="true">Listen to the Eposide</a>
                     </div>
                    

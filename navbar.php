@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-fixed-top fixed-top py-3">
     <div class="container">
         <a class="navbar-brand" href="index.php"><img src="images/logo-white.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler bbb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -40,6 +40,8 @@
         </div>
     </div>
 </nav>
+
+
 
 
 <script>
@@ -89,3 +91,4 @@ if (window.innerWidth > 992) {
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 </style>
+

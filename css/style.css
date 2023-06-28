@@ -119,7 +119,9 @@ p {
   transition: background-color 200ms linear;
   box-shadow: 0px 15px 10px -15px #c46868; 
 }
-
+button.navbar-toggler.bbb {
+  height: 35px !important;
+}
 .hero-section .custom-video {
     position: relative;
     z-index: 2;
@@ -242,7 +244,7 @@ p {
   .text-effec{ font-size: 35px; }
 }
 
-/* -------------------------card----------------------------- */
+/* ----------------card------------------- */
 
 /* Float three columns side by side */
 .card-section .column {
@@ -742,16 +744,15 @@ span.next-next {
 .abt-pg  .img-fluid{
   box-shadow: 0 91px 127px rgba(22, 21, 21, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-  .abt-pg .img-fluid-1{
-   
-    margin-left: 20px;
-    margin-top: -45px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
-  img.img-fluid-2 {
-    margin-top: -270px;
-    margin-left: 260px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.abt-pg .img-fluid-1{
+  margin-left: 20px;
+  margin-top: -62px !important;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+img.img-fluid-2 {
+  margin-top: -270px;
+  margin-left: 260px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
   
 .about-page-2{
@@ -1359,7 +1360,7 @@ img.img-fluid.h-75.w-100 {
 .overlay-three {
   position: absolute;
   width: 100%;
-  height: 600px;
+  height: 700px;
   background: rgba(10, 28, 85, 0.3);
   right: 0;
   z-index: 0;
@@ -1387,8 +1388,9 @@ img.img-fluid.h-75.w-100 {
   transform: rotate(-90deg);
 }
 .gaming-rext-three-text p{
-  font-family: 'Jost' !important;
-  font-weight: 300;
+  font-family: 'Jost', sans-serif !important;
+  font-weight: 400;
+  font-size: 17px;
 }
 .gaming-section-five-blog{
   background-color: #050505;
@@ -2165,8 +2167,8 @@ i.fa.fa-bars {
 .carousel-item img{
   display: block;
   padding: 32px 38px;
-  width: 500px;
-  height: 700px;
+  width: 400px;
+  height: 500px;
   margin: 30px auto;
 }
 
@@ -2187,13 +2189,13 @@ i.fa.fa-bars {
  
 }
 .carousel-control-prev-icon{
-margin: 50px;
-padding: 20px;
+  margin: 50px;
+  padding: 20px;
 
 }
 .carousel-control-next-icon{
-  margin: 50px;
-  padding: 20px;
+    margin: 50px;
+    padding: 20px;
   
   }
 
@@ -2203,11 +2205,11 @@ padding: 20px;
   }
 
 .owl-img-card img{
-  width: 250px;
-  height: auto;
-  position: relative;
-  opacity:1;
-}
+    width: 250px;
+    height: 300px;
+    position: relative;
+    opacity:1;
+  }
   .owl-img-card{
     display: block;
     width: 100%;
@@ -2218,13 +2220,18 @@ padding: 20px;
     margin-top: -50px;
     border-radius: 5%;
     text-align: center;
-   
-   
   }
+  .gmm-text h4{
+    /* padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px; */
+    background-color: #000 !important;
+    
+  }
+
 .owl-img-card:hover {
     transform: scale(1.3);
     /* background: transparent !important; */
-   
   }
   @media screen and (max-width: 991px) {
 
@@ -2376,3 +2383,25 @@ i.fa.fa-play-circle.button-three {
   height: 664px;
   filter: brightness(150%);
 }
+
+/*----------- animation----------- */
+
+
+
+.owl-carousel-section-four {
+  background: white;
+  animation: color-me-in 9s; /* other keywords like "infinite alternate" can be useful here */
+
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: rgb(255, 255, 255);
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background: black;
+  }
+}
+

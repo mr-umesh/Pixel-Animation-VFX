@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
-
+    <link rel="stylesheet" href="css/animate.css"> 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
@@ -47,7 +46,7 @@
             <div class="row">
               <div class="contact-text text-center">
                 <div class="col-12 ">
-                    <h1 class="">CAREERS</h1>
+                    <h1>CAREERS</h1>
                 </div>
               </div>
             </div>

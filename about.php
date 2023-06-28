@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/animate.css"> 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     
@@ -35,14 +35,13 @@
             <div class="row">
                 <div class="col-sm-6 col-lg-6 col-md-6">
                     <div class="img-img">
-                        <img src="images/about-page/about.jpg" class="img-fluid" alt="">
-                        <img src="images/about-page/about-2.jpg" class="img-fluid-1" width="40%" height="160px" alt="">
-                        <img src="images/about-page/about-1.jpg" class="img-fluid-2" width="60%" height="150px" alt="">
+                        <img src="images/about-page/about.jpg" class="img-fluid wow zoomIn" data-wow-duration="0.4s" data-wow-delay="0.3s" alt="">
+                        <img src="images/about-page/about-2.jpg" class="img-fluid-1  wow fadeInLeft" data-wow-delay="0.5s" width="40%" height="160px" alt="">
+                        <img src="images/about-page/about-1.jpg" class="img-fluid-2  wow fadeInLeft" data-wow-delay="0.7s" width="60%" height="150px" alt="">
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-6 col-md-6">
-               
+                <div class="col-sm-6 col-lg-6 col-md-6 wow zoomIn" data-wow-duration="0.4s" data-wow-delay="1s">
                     <div class="abt-text ms-5">
                     <div style="width:10%; text-align:left; margin-left:px; border:4px solid black;"> </div>
                         <h1>ABOUT US</h1>
@@ -59,7 +58,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-12 col-md-12">
-                    <div class="abt-text-1 text-center text-white">
+                    <div class="abt-text-1 text-center text-white wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
                         <p>The Limit of what is technically and creatively <br>
                             possible are something we constantly push.</p>
                     </div>
@@ -73,7 +72,7 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-lg-12 col-md-12">
+            <div class="col-sm-12 col-lg-12 col-md-12  wow rollIn" data-wow-duration="0.5s" data-wow-delay="0.7s">
                 <div class="abt-text-2  text-center text-white ps-4 pe-4">
                     <div style="width:70%; text-align:center; margin-left:80px; border:2px solid white;" class="line-vertical"> </div>
                     
@@ -91,14 +90,14 @@
     <div class="about-page-4 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow rotateInUpLeft" data-wow-duration="0.5s" data-wow-delay="0.7s">
                     <div class="abt-4">
                         <img src="images/about-page/kartik.jpg" class="img-fluid" alt="">
                         <h5 class="text-center mt-2">KARTIK GURUNATHAN</h5>
                         <p class="text-center text-muted">Co-founder / Fx sup</p>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8  wow rotateInUpRight" data-wow-duration="0.5s" data-wow-delay="0.7s">
                     <div class="text-start ms-lg-5">
                         <h3 class="font-name-add">QUALIFICATIONS – WHO ARE WE LOOKING FOR? Recent graduates or entry/junior artists looking for their first break in the VFX-CGI industry Individuals with a passion in a number of disciplines “HOUDINI and UNREAL ENGINE”. Highly-motivated individuals with a strong passion for the creation of visual effects candidates eager to learn and develop their individual skills.</h3>
                         <p class="text-muted">Once you have successfully submitted your application and been accepted by our team there are few things to prepare before departure. Please take your time to read through the following guides about lifestyle in Puducherry, housing and different services around the city.</p>
@@ -113,25 +112,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-4 text-center">
-                    <h1>15</h1>
+                    <h1 class="" data-toggle="counter-up">15</h1>
                     <h5 class="text-muted">YEARS</h5>
                 </div>
                 <div class="col-lg-4 col-4 text-center">
-                    <h1>100</h1>
+                    <h1 class="" data-toggle="counter-up">100</h1>
                     <h5 class="text-muted">PROJECTS</h5>
                 </div>
                 <div class="col-lg-4 col-4 text-center">
-                    <h1>50</h1>
+                    <h1 class="" data-toggle="counter-up">50</h1>
                     <h5 class="text-muted">CLIENTS</h5>
                 </div>
             </div>
 
             <div class="row py-5">
-                    <h5 class="text-muted text-center mt-3">One things our talented teams</h5>
-                    <h1 class="text-center mb-5">PASSION FOR THE CRAFT</h1>
+                    <h5 class="text-muted text-center mt-3  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">One things our talented teams</h5>
+                    <h1 class="text-center mb-5  wow fadeInUp" data-wow-duration="0.2s" data-wow-delay="0.9s">PASSION FOR THE CRAFT</h1>
                 <div class="col-lg-2 col-md-2">     
                 </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.9s">
                         <div class="box">
                             <img src="images/about-page/kartik.jpg" class="img-fluid" alt="">
                             <div class="box-content">
@@ -149,7 +148,7 @@
                         <h5 class="text-muted">Co-founder / Fx sup</h5>
                     </div>
                 </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.9s"">
                     <div class="box">
                             <img src="images/about-page/Ragunatha.jpg" class="img-fluid" alt="">
                             <div class="box-content">
@@ -183,10 +182,6 @@
 </body>
 </html>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/lightbox.js"></script>
-
+   
+  
+    
